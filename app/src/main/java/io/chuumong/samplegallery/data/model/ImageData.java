@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.data.model;
+package io.chuumong.samplegallery.data.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

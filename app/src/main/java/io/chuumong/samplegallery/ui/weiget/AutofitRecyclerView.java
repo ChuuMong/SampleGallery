@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.ui.weiget;
+package io.chuumong.samplegallery.ui.weiget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
-import android.util.Log;
 
 /**
  * Created by LeeJongHun on 2016-06-22.

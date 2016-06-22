@@ -1,11 +1,12 @@
-package com.motionblue.samplegallery.ui.weiget;
+package io.chuumong.samplegallery.ui.weiget;
 
 import android.content.Context;
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.motionblue.samplegallery.R;
+import io.chuumong.samplegallery.R;
+
 
 /**
  * Created by LeeJongHun on 2016-06-22.

@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.ui.adapter;
+package io.chuumong.samplegallery.ui.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,11 +7,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.motionblue.samplegallery.R;
-import com.motionblue.samplegallery.data.model.ImageData;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import io.chuumong.samplegallery.R;
+import io.chuumong.samplegallery.data.model.ImageData;
+
 
 /**
  * Created by LeeJongHun on 2016-06-21.

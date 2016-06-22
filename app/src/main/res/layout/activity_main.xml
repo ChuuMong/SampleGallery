@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.MainActivity">
 
-    <com.motionblue.samplegallery.ui.weiget.AutofitRecyclerView
+    <io.chuumong.samplegallery.ui.weiget.AutofitRecyclerView
         android:id="@+id/gallery"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

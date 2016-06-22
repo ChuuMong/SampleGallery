@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.ui.activity;
+package io.chuumong.samplegallery.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,11 +8,11 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.motionblue.samplegallery.ui.fragment.ImagePagerFragment;
-import com.motionblue.samplegallery.R;
-import com.motionblue.samplegallery.data.model.ImageData;
-
 import java.util.ArrayList;
+
+import io.chuumong.samplegallery.R;
+import io.chuumong.samplegallery.data.model.ImageData;
+import io.chuumong.samplegallery.ui.fragment.ImagePagerFragment;
 
 public class ImageActivity extends AppCompatActivity {
 

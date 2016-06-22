@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.ui.fragment;
+package io.chuumong.samplegallery.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,8 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.motionblue.samplegallery.R;
-import com.motionblue.samplegallery.data.model.ImageData;
+
+import io.chuumong.samplegallery.R;
+import io.chuumong.samplegallery.data.model.ImageData;
+
 
 /**
  * Created by LeeJongHun on 2016-06-22.

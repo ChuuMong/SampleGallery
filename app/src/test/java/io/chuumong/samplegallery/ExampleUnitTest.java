@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery;
+package io.chuumong.samplegallery;
 
 import org.junit.Test;
 

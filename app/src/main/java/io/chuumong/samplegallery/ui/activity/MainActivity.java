@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.ui.activity;
+package io.chuumong.samplegallery.ui.activity;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -7,13 +7,13 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 
-import com.motionblue.samplegallery.R;
-import com.motionblue.samplegallery.data.model.ImageData;
-import com.motionblue.samplegallery.ui.adapter.GalleryAdapter;
-import com.motionblue.samplegallery.ui.weiget.MarginDecoration;
-
 import java.io.File;
 import java.util.ArrayList;
+
+import io.chuumong.samplegallery.R;
+import io.chuumong.samplegallery.data.model.ImageData;
+import io.chuumong.samplegallery.ui.adapter.GalleryAdapter;
+import io.chuumong.samplegallery.ui.weiget.MarginDecoration;
 
 public class MainActivity extends AppCompatActivity implements GalleryAdapter.OnItemClickListener {
 
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements GalleryAdapter.On
 
     private ArrayList<ImageData> initGalleryPath() {
         File galleryDir = new File(/* 폴더 경로 입력 */);
+
         Log.d(TAG, "getGalleryList Gallery Path : " + galleryDir.getPath());
 
         // 파일이 존재하지 않으면 False

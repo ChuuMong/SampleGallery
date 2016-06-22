@@ -1,4 +1,4 @@
-package com.motionblue.samplegallery.ui.weiget;
+package io.chuumong.samplegallery.ui.weiget;
 
 import android.content.Context;
 import android.util.AttributeSet;
