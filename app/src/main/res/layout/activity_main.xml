@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.activity.MainActivity">
+
+    <include
+        layout="@layout/toolbar"/>
 
     <io.chuumong.samplegallery.ui.weiget.AutofitRecyclerView
         android:id="@+id/gallery"
@@ -11,6 +15,6 @@
         android:layout_height="match_parent"
         android:clipToPadding="true"
         android:columnWidth="120dp"
-        android:padding="@dimen/item_margin"/>
+        android:padding="@dimen/item_margin" />
 
-</RelativeLayout>
+</LinearLayout>

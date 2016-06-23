@@ -12,6 +12,7 @@ public class ImageData implements Parcelable {
 
     String path;
     File imageFile;
+    boolean isChecked;
 
     public ImageData(String path) {
         this.path = path;
@@ -26,6 +27,14 @@ public class ImageData implements Parcelable {
         return imageFile;
     }
 
+
+    public boolean isChecked() {
+        return isChecked;
+    }
+
+    public void setChecked(boolean checked) {
+        isChecked = checked;
+    }
 
     @Override
     public int describeContents() {
